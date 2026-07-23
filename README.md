@@ -4,7 +4,7 @@ irm https://claude.ai/install.ps1 | iex
 
 ```
 
-```prompt
+```prompt 
 install latest powershell git and gh cli on my system
 
 Install Oh My Posh via winget and a Meslo Nerd Font. 
