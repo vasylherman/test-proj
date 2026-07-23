@@ -1,3 +1,19 @@
+```powershell
+irm https://claude.ai/install.ps1 | iex
+[Environment]::SetEnvironmentVariable("Path", ([Environment]::GetEnvironmentVariable("Path","User") + ";C:\Users\air\.local\bin"), "User")
+
+```
+
+```prompt
+install latest powershell git and gh cli on my system
+
+Install Oh My Posh via winget and a Meslo Nerd Font. 
+Create a PowerShell 7 profile that loads a custom Powerlevel10k-style Oh My Posh theme with a single-line prompt: 
+left side shows user@host, path, and git status; right side shows a ✓/✗ exit-status segment and the time. 
+Enable PSReadLine inline autosuggestions from history, and bind Up/Down arrows to prefix history search. 
+Finally, set the PowerShell 7 profile in Windows Terminal to use the Meslo Nerd Font and the One Half Dark color scheme.
+```
+
 ```shell
 gh repo create vasylherman/test-proj --public
 gh repo clone vasylherman/test-proj
